@@ -586,32 +586,61 @@ intro {
 
     #gridParentHome img {
       width: 100%;
+      border-radius: 5%;
     }
 
     #gridItemHome1 {
       grid-row: 8 / 9;
-      grid-column: 3 / 4; /* Moved to the right */
+      grid-column: 3 / 4; 
+    }
+
+    #textGridItemHome1 {
+      grid-row: 8/9;
+      grid-column: 1/2;
+      align-self: center;
+      border: solid 2px #ba94d1;
+      border-radius: 50%;
+      padding: 2rem;
     }
 
     #gridItemHome2 {
       grid-row: 2 / 3;
-      grid-column: 3 / 4; /* Moved to the right */
+      grid-column: 3 / 4; 
     }
 
     #textGridItemHome2 {
-      grid-row: 2 / 3;
-      grid-column: 1 / 2; /* Moved to the left */
+      grid-row: 2/3;
+      grid-column: 1/2;
       align-self: center;
+      border: solid 2px #ba94d1;
+      border-radius: 50%;
+      padding: 2rem;
     }
 
     #gridItemHome3 {
-      grid-row: 3 / 4;
-      grid-column: 1 / 1; /* Moved to the left */
+      grid-row: 3/4;
+      grid-column: 1/1; /* Moved to the left */
     }
 
+    #textGridItemHome3 {
+      grid-row: 3/4;
+      grid-column: 3/4;
+      align-self: center;
+      border: solid 2px #ba94d1;
+      border-radius: 50%;
+      padding: 2rem;
+    }
     #gridItemHome4 {
       grid-row: 4 / 5;
       grid-column: 3 / 4; /* Moved to the right */
+    }
+    #textGridItemHome4 {
+      grid-row: 4/5;
+      grid-column: 1/2;
+      align-self: center;
+      border: solid 2px #ba94d1;
+      border-radius: 50%;
+      padding: 2rem;
     }
 
     #gridItemHome5 {
@@ -619,9 +648,27 @@ intro {
       grid-column: 1 / 2; /* Moved to the left */
     }
 
+    #textGridItemHome5 {
+      grid-row: 5/6;
+      grid-column: 3/4;
+      align-self: center;
+      border: solid 2px #ba94d1;
+      border-radius: 50%;
+      padding: 2rem;
+    }
+
     #gridItemHome6 {
       grid-row: 6 / 7;
       grid-column: 3 / 4; /* Moved to the right */
+    }
+
+    #textGridItemHome6 {
+      grid-row: 6/7;
+      grid-column: 1/2;
+      align-self: center;
+      border: solid 2px #ba94d1;
+      border-radius: 50%;
+      padding: 2rem;
     }
 
     #gridItemHome7 {
@@ -629,11 +676,18 @@ intro {
       grid-column: 1 / 2; /* Moved to the left */
     }
 
+    #textGridItemHome7 {
+      grid-row: 7/8;
+      grid-column: 3/4;
+      align-self: center;
+      border: solid 2px #ba94d1;
+      border-radius: 50%;
+      padding: 2rem;
+    }
+
     #gridItemHome8 {
       grid-row: 1 / 2;
       grid-column: 1 / 8;
     }
   }
-
-  
 }
