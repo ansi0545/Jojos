@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <link href="../css/widget.css" rel="stylesheet">
+    <!-- <script src="https://cdn.skypack.dev/axios"></script> ES6 module får felmeddelande i consolen //ES5 module, taggen under fungerar -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../javascript/api.js" crossorigin="anonymous"></script>
+    <script type="module" src="../javascript/widget.js" crossorigin="anonymous"></script>
+    <script type="module" src="../javascript/index.js" crossorigin="anonymous"></script>
+    <title>Food Widget</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Yurt - Jojjos tårtor</h1>
+            <img src="/images/safari-pinned-tab.svg" alt="Jojos tårtors logotype"
+                title="Klicka för att komma till beställningssidan">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="../hem.html">Hem</a></li>
+                <li><a href="tårtor.html">Tårtor</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="bokningar.html">Bokningar</a></li>
+                <li><a href="galleri.html">Galleri</a></li>
+                <li><a href="widget.html">Inspiration</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h2>Tårtor</h2>
+                    <p>Få inspiration genom vår tårt-widget</p>
+                </header>
+            </section>
+
+            <div id="food-widget"></div>
+
+        </main>
+        <footer>
+            <address>
+                <p class="heading">Adress</p>
+                <p> 12010 Pacific Trails Road, Zephyr, CA 95555. </p>
+            </address>
+            <address>
+                <p class="heading">Phone</p>
+                <p> (888) 555-5555</p>
+            </address>
+            <address>
+                <p class="heading">Email</p>
+                <p> info@pacificresort.tld</p>
+            </address>
+        </footer>
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Pacific Trails Resort</li>
+                <li>Design: HTML5 UP</li>
+            </ul>
+        </div><!--End copyright-->
+
+    </div><!--End wrapper-->
+
+</body>
+
+</html>

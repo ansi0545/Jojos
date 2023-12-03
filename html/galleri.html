@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>Pacific Trails Resort</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/lightbox.css" rel="stylesheet">
+    <!-- <link href="../images/favicon.ico" rel="icon"> -->
+    <meta name="description" content="A gallery of pictures from the area and our yurts and lodging.">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Gallery - Jojjos tårtor</h1>
+            <img src="/images/safari-pinned-tab.svg" alt="Jojos tårtors logotype"
+            title="Klicka för att komma till beställningssidan">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="../hem.html">Home</a></li>
+                <li><a href="tårtor.html">Yurt</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="bokningar.html">Reservations</a></li>
+                <li><a href="galleri.html">Gallery</a></li>
+                <li><a href="widget.html">Inspiration</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h2>Gallery</h2>
+                    <p>Take a look at some pictures from our Resort and the surrounding area</p>
+                </header>
+
+                <div id="gallery">
+                    <p>
+                        <img src="../images/Gallery/Beach.jpg" alt="View of the beach"
+                            onclick="openModal();currentSlide(1)" class="imgText">
+                        <img src="../images/Gallery/Beach_Pacific_Ocean.jpg" alt="View over the ocean at sunset"
+                            onclick="openModal();currentSlide(2)" class="imgText">
+                        <img src="../images/Gallery/Beach_with_cliffs.jpg" alt="View of the cliffs at the beach"
+                            onclick="openModal();currentSlide(3)" class="imgText">
+                        <img src="../images/Gallery/Sunset_at_Pacific_Ocean.jpg" alt="Sunset at pacific ocean"
+                            onclick="openModal();currentSlide(4)" class="imgText">
+                    </p>
+
+                    <p>
+                        <img src="../images/Gallery/Bridge_at_Trail.jpg" alt="A trail leading to a bridge"
+                            onclick="openModal();currentSlide(5)" class="imgText">
+                        <img src="../images/Gallery/Forest_Trail.jpg" alt="Trail through the forest"
+                            onclick="openModal();currentSlide(6)" class="imgText">
+                        <img src="../images/Gallery/Redwood.jpg" alt="Redwood tree with trail"
+                            onclick="openModal();currentSlide(7)" class="imgText">
+                        <img src="../images/Gallery/Trail.jpg" alt="Trail through the forest"
+                            onclick="openModal();currentSlide(8)" class="imgText">
+                    </p>
+
+                    <p>
+                        <img src="../images/Gallery/Welcome.jpg" alt="Welcometo our Resort"
+                            onclick="openModal();currentSlide(9)" class="imgText">
+                        <img src="../images/Gallery/Trail.jpg" alt="Trail up to our lodge"
+                            onclick="openModal();currentSlide(10)" class="imgText">
+                        <img src="../images/Gallery/Lodge_Deck.jpg" alt="The deck aroundour lodge"
+                            onclick="openModal();currentSlide(11)" class="imgText">
+                        <img src="../images/Gallery/Lodge_Reception.jpg" alt="At our reception"
+                            onclick="openModal();currentSlide(12)" class="imgText">
+                    </p>
+
+                    <p>
+                        <img src="../images/Gallery/Treebones_Yurt.jpg" alt="A yurt with a view"
+                            onclick="openModal();currentSlide(13)" class="imgText">
+                        <img src="../images/Gallery/California_Morning.jpg" alt="The deck at one of the yurts"
+                            onclick="openModal();currentSlide(14)" class="imgText">
+                        <img src="../images/Gallery/Yurt_Interior.jpg" alt="Interior in Yurt"
+                            onclick="openModal();currentSlide(15)" class="imgText">
+                        <img src="../images/Gallery/Indoor_pool.jpg"
+                            alt="Our indoor pool at the activity house near the lodge"
+                            onclick="openModal();currentSlide(16)" class="imgText">
+                    </p>
+                </div>
+
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 16</div>
+                            <img src="../images/Gallery/Beach.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 16</div>
+                            <img src="../images/Gallery/Beach_Pacific_Ocean.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 16</div>
+                            <img src="../images/Gallery/Beach_with_cliffs.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 16</div>
+                            <img src="../images/Gallery/Sunset_at_Pacific_Ocean.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 16</div>
+                            <img src="../images/Gallery/Bridge_at_Trail.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 16</div>
+                            <img src="../images/Gallery/Forest_Trail.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 16</div>
+                            <img src="../images/Gallery/Redwood.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">8 / 16</div>
+                            <img src="../images/Gallery/Trail.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">9 / 16</div>
+                            <img src="../images/Gallery/Welcome.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">10 / 16</div>
+                            <img src="../images/Gallery/Trail.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">11 / 16</div>
+                            <img src="../images/Gallery/Lodge.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">12 / 16</div>
+                            <img src="../images/Gallery/Lodge_Reception.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">13 / 16</div>
+                            <img src="../images/Gallery/Treebones_Yurt.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">14 / 16</div>
+                            <img src="../images/Gallery/California_Morning.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">15 / 16</div>
+                            <img src="../images/Gallery/Yurt_Interior.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">16 / 16</div>
+                            <img src="../images/Gallery/Indoor_pool.jpg" alt="" style="width:100%">
+                        </div>
+
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <!-- Caption text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+                    </div> <!-- End modal-content -->
+                </div> <!--End my modal -->
+
+            </section>
+        
+
+        </main>
+
+
+        <footer>
+            <address>
+                <p class="heading">Adress</p>
+                <p> 12010 Pacific Trails Road, Zephyr, CA 95555. </p>
+            </address>
+            <address>
+                <p class="heading">Phone</p>
+                <p> (888) 555-5555</p>
+            </address>
+            <address>
+                <p class="heading">Email</p>
+                <p> info@pacificresort.tld</p>
+            </address>
+        </footer>
+
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Pacific Trails Resort</li>
+                <li>Design: HTML5 UP</li>
+            </ul>
+        </div><!--End copyright-->
+
+    </div><!--End wrapper-->
+<script src="../js/lightbox.js"></script>
+</body>
+
+</html>

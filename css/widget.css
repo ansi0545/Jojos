@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Source Sans 3";
+  src: url(fonts/SourceSans3/SourceSans3-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url(fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+/*Generella regler*/
+
+html {
+  font-size: 105%;
+}
+
+body {
+  font: 300 1rem/1.375 Merriweather, Georgia, serif;
+  color: #212931;
+   display: flex;
+  justify-content: center; 
+}
+
+main,
+footer,
+#copyright {
+  margin: 0 auto;
+  max-width: 74rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+nav ul,
+#copyright,
+table th,
+.heading {
+  font-family: 'Indie Flower', cursive;
+  /* font-family: "Merriweather", Georgia, serif; */
+  font-weight: 900;
+  letter-spacing: 0.075rem;
+}
+
+header {
+  background-image: linear-gradient(45deg, rgba(124, 117, 117, 0.4),rgba(251, 240, 240, 0.5));
+  
+}
+
+
+section {
+  background-color: #f3eeea;
+}
+
+#wrapper {
+  background-color: #f3eeea;
+  width: 100%;
+}
+
+/*navigation*/
+nav {
+  font-size: 1.2rem;
+  /* max-width: auto; */
+  margin: 0 auto;
+  display: flex;
+  background-color: #f8f8f8;
+  
+}
+
+nav ul {
+  text-transform: uppercase;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0.5rem 0 0.5rem 0;
+  
+}
+
+nav ul li a {
+  color: #7f669d;
+  text-decoration: none;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+nav a:focus,
+nav a:hover {
+  color: #ba94d1;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0;
+}
+
+#food-widget {
+  width: 75%;
+  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin-top: 50px; /* To prevent the navbar from covering the widget */
+}
+
+#food-widget h2 {
+  text-align: center;
+  color: #7f669d;
+}
+
+#food-widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+#food-widget ul li {
+  color: #7f669d;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+#food-widget ul li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    text-shadow: 2px 1px #000;
+  }
+}
+
+div > header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+nav {
+  line-height: 2rem;
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  flex-direction: row;
+  padding: 0;
+}
+
+nav ul li {
+  text-align: center;
+  padding: 0;
+}
+
+
+@media (min-width: 601px) {
+  div > header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+    padding-bottom: 8rem;
+  }
+
+  /* Nav */
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  main section {
+    padding: 6rem 4rem 4rem 4rem;
+  }
+}
+
+
+
+
+  
