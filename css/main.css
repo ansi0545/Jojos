@@ -60,6 +60,7 @@ h1 {
   font-size: 2.25rem;
   text-transform: uppercase;
   color: whitesmoke;
+  text-shadow: 2px 1px #000;
 }
 
 h2 {
@@ -322,6 +323,7 @@ input[type="reset"] {
 #grid h1 {
   color: #fff;
   text-shadow: none;
+  text-shadow: 2px 1px #000;
 }
 
 intro {
