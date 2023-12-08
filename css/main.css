@@ -235,6 +235,10 @@ body#grid > div {
   }
 }
 
+#food-widget {
+  background-color: #f5f5f5;
+}
+
 #food-widget h2,
 h3,
 p {
@@ -747,7 +751,7 @@ intro {
 
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      background-color: white;
+      background-color: #f5f5f5;
       margin-top: 50px; /* To prevent the navbar from covering the widget */
     }
 
