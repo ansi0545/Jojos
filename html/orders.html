@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <title>Beställningar - Jojo's tårtor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../images/favicon.ico" rel="icon">
+    <meta name="beskrivning" content="Kontaktinformation och bokningsformulär">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Beställningar - Jojo's tårtor</h1>
+            <img src="../images/inCommon/safari-pinned-tab.svg" alt="Jojos tårtors logotype"
+            title="Klicka för att komma till beställningssidan">
+        </header>
+
+
+        <nav>
+            <ul>
+                <li><a href="../home.html">Hem</a></li>
+                <li><a href="cakes.html">Tårtor</a></li>
+                <li><a href="orders.html">Bokningar</a></li>
+                <li><a href="gallery.html">Galleri</a></li>
+                <li><a href="widget.html">Inspiration</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <header>
+                    <h2>Tårtbeställning</h2>
+                    <p>Fyll i formuläret så kommer vi att kontakta dig</p>
+                </header>
+
+                <form method="post" action="tack.html">
+
+                    <p>
+                        <label for="FirstName">Förnamn*:</label>
+                        <input type="text" name="firstname" id="FirstName" required >
+                    </p>
+                    <p>
+                        <label for="LastName">Efternamn*:</label>
+                        <input type="text" name="lastname" id="LastName" required >
+                    </p>
+                    <p>
+                        <label for="Email">E-mail*:</label>
+                        <input type="email" name="email" id="Email" required pattern="\w+@\w+.+\w" >
+                    </p>
+                    <p>
+                        <label for="Phone">Telefon:</label>
+                        <input type="tel" name="phone" id="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+                    </p>
+                    <p>
+                        <label for="Arrival">Datum*:</label>
+                        <input type="date" name="Arrival" id="Arrival" required >
+                    </p>
+                    <p>
+                        <label for="Antal">Antal:</label>
+                        <select name="antal" id="Antal">
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="Comments">Annat att tillägga:</label>
+                        <textarea name="Comments" rows="5" cols="20" id="Comments"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Submit your reservation" >
+                        <input type="reset" value="Clear the form" >
+
+                    </p>
+                </form>
+
+
+            </section>
+        </main>
+
+        <footer>
+            <address>
+                <p class="heading">Adress</p>
+                <p> 12010 Pacific Trails Road, Zephyr, CA 95555. </p>
+            </address>
+            <address>
+                <p class="heading">Phone</p>
+                <p> (888) 555-5555</p>
+            </address>
+            <address>
+                <p class="heading">Email</p>
+                <p> info@pacificresort.tld</p>
+            </address>
+        </footer>
+
+        <div id="copyright">
+            <ul>
+                <li>&copy; Pacific Trails Resort</li>
+                <li>Design: HTML5 UP</li>
+            </ul>
+        </div><!--End copyright-->
+        
+
+    </div><!--End wrapper-->
+
+</body>
+
+</html>

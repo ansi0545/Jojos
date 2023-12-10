@@ -281,7 +281,7 @@ tbody,
 th,
 td,
 tr {
-  display: block;
+  display: inline-flex;
 }
 
 thead tr {
