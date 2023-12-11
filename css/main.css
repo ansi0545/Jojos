@@ -141,6 +141,30 @@ section ul {
   line-height: 2;
 }
 
+.cakesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+
+.cakesItem img {
+   width: 35%;
+   border: solid 5px #ba94d1;
+   /* --mask: radial-gradient(40px at 40px 40px, #0000 98%, #000) -40px -40px;
+   -webkit-mask: var(--mask);
+   mask: var(--mask);  */
+ 
+}
+.cakesItem p {
+  width: 35%;
+}
+ 
+
+
+
 picture {
   display: flex;
 }
