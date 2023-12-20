@@ -525,6 +525,7 @@ input[type="reset"] {
   p img {
     width: 20%;
     margin-left: 1rem;
+    border: solid 5px #ba94d1;
   }
 
   #gallery p {
