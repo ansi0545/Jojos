@@ -158,13 +158,12 @@ section ul {
 }
 
 .cakesItem {
-  width: 75%;
+  width: 50%;
 }
 
 .cakesItem img {
   border: solid 5px #ba94d1;
 }
-
 
 
 picture {
@@ -249,6 +248,10 @@ body#grid > div {
   h1 {
     text-shadow: 2px 1px #000;
   }
+}
+
+img {
+  
 }
 
 .saying {
@@ -373,10 +376,6 @@ input[type="reset"] {
   text-shadow: 2px 1px #000;
 }
 
-/* intro {
-  line-height: 1.5rem;
-  margin-top: 1.8rem;
-} */
 
 @media (min-width: 601px) {
   h1 {
