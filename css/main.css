@@ -322,7 +322,7 @@ main section {
 
 footer {
   flex-direction: row;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 /*Table*/
