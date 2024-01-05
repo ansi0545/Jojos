@@ -114,7 +114,6 @@ footer,
 /*navigation*/
 nav {
   font-size: 1.2rem;
-  max-width: auto;
   margin: 0 auto;
   display: flex;
   justify-content: center;
