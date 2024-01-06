@@ -1,10 +1,4 @@
 
-// In this code, before making a request to the API, we first try to get the data from localStorage. 
-//If the data is there, we parse it from JSON and return it. If the data is not in localStorage, we fetch it from the API, store it in localStorage for future use, and then return it.
-
-// Please note that localStorage has a size limit (usually 5MB), and it only works on the same domain. 
-//If you need to store more data or share data between different domains, you might need to use a different solution, like IndexedDB or a service worker with a Cache API.
-
 
 import axios from 'https://cdn.skypack.dev/axios';
 
