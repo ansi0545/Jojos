@@ -562,11 +562,7 @@ input[type="reset"] {
       );
     }
 
-    /* #intro {
-      width: 35%;
-      line-height: 1.5;
-      margin-bottom: 3rem;
-    } */
+   
 
     #gridParent {
       display: grid;
@@ -580,6 +576,11 @@ input[type="reset"] {
       text-align: center;
       margin-bottom: 1rem;
     }
+
+    #gridParent img {
+      width: 60%;
+    }
+
 
     #gridItem1,
     #gridItem2,
