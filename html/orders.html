@@ -1,129 +1,146 @@
 <!DOCTYPE html>
 <html lang="sv">
-
-<head>
+  <head>
     <title>Beställningar - Jojo's bakverk</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-    <link href="../css/reset.css" rel="stylesheet">
-    <link href="../css/main.css" rel="stylesheet">
-    <link href="../images/favicon.ico" rel="icon">
-    <meta name="beskrivning" content="Kontaktinformation och bokningsformulär">
-</head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=2"
+    />
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <link href="../images/favicon.ico" rel="icon" />
+    <meta
+      name="beskrivning"
+      content="Kontaktinformation och bokningsformulär"
+    />
+  </head>
 
-<body>
+  <body>
     <div id="wrapper">
-        <header>
-            <h1>Beställningar - Jojo's bakverk</h1>
-            <h2 class="saying">"Life is a piece of cake"</h2>
-            <img src="../images/inCommon/safari-pinned-tab.svg" alt="Jojos tårtors logotype"
-                title="Klicka för att komma till beställningssidan">
-        </header>
+      <header>
+        <h1>Beställningar - Jojo's bakverk</h1>
+        <h2 class="saying">"Life is a piece of cake"</h2>
+        <img
+          src="../images/inCommon/safari-pinned-tab.svg"
+          alt="Jojos tårtors logotype"
+          title="Klicka för att komma till beställningssidan"
+        />
+      </header>
 
+      <nav>
+        <ul>
+          <li><a href="../home.html">Hem</a></li>
+          <li><a href="cakes.html">Tårtor</a></li>
+          <li><a href="bread.html">Bröd</a></li>
+          <li><a href="orders.html">Bokningar</a></li>
+          <li><a href="gallery.html">Galleri</a></li>
+          <li><a href="widget.html">Inspiration</a></li>
+        </ul>
+      </nav>
 
-        <nav>
-            <ul>
-                <li><a href="../home.html">Hem</a></li>
-                <li><a href="cakes.html">Tårtor</a></li>
-                <li><a href="bread.html">Bröd</a></li>
-                <li><a href="orders.html">Bokningar</a></li>
-                <li><a href="gallery.html">Galleri</a></li>
-                <li><a href="widget.html">Inspiration</a></li>
-            </ul>
-        </nav>
+      <main>
+        <section>
+          <header>
+            <h2>Tårtbeställning</h2>
+            <p>
+              Fyll i formuläret nedan så återkommer vi till er så snart vi kan
+            </p>
+          </header>
 
-        <main>
-            <section>
-                <header>
-                    <h2>Tårtbeställning</h2>
-                    <p>Fyll i formuläret nedan så återkommer vi till er så snart vi kan</p>
-                </header>
+          <form method="post" action="thanks.html">
+            <p>
+              <label for="FirstName">Förnamn*:</label>
+              <input type="text" name="firstname" id="FirstName" required />
+            </p>
+            <p>
+              <label for="LastName">Efternamn*:</label>
+              <input type="text" name="lastname" id="LastName" required />
+            </p>
+            <p>
+              <label for="Email">E-mail*:</label>
+              <input
+                type="email"
+                name="email"
+                id="Email"
+                required
+                pattern="\w.+@\w+.+\w"
+              />
+            </p>
+            <p>
+              <label for="Phone">Telefon:</label>
+              <input
+                type="tel"
+                name="phone"
+                id="Phone"
+                pattern="[0-9]{3}-[0-9]{7}"
+              />
+            </p>
+            <p>
+              <label for="Date">Datum*:</label>
+              <input type="date" name="Date" id="Date" required />
+            </p>
+            <p>
+              <label for="Antal">Antal:</label>
+              <select name="antal" id="Antal">
+                <option value="en">1</option>
+                <option value="två">2</option>
+                <option value="tre">3</option>
+                <option value="fyra">4</option>
+                <option value="fen">5</option>
+                <option value="sex">6</option>
+                <option value="sju">7</option>
+                <option value="åtta">8</option>
+                <option value="nio">9</option>
+                <option value="tio">10</option>
+                <option value="elva">11</option>
+                <option value="tolv">12</option>
+                <option value="tretton">13</option>
+                <option value="fjorton">14</option>
+                <option value="femton">15</option>
+                <option value="sexton">16</option>
+                <option value="sjutton">17</option>
+                <option value="arton">18</option>
+                <option value="nitton">19</option>
+                <option value="tjugo">20</option>
+              </select>
+            </p>
+            <p>
+              <label for="Comments">Annat att tillägga:</label>
+              <textarea
+                name="Comments"
+                rows="5"
+                cols="20"
+                id="Comments"
+              ></textarea>
+            </p>
+            <p>
+              <input type="submit" value="Skicka in din beställning" />
+              <input type="reset" value="Rensa formuläret" />
+            </p>
+          </form>
+        </section>
+      </main>
 
-              
+      <footer>
+        <address>
+          <p class="heading">Phone</p>
+          <p>(888) 555-5555</p>
+        </address>
+        <address>
+          <p class="heading">Email</p>
+          <p>jojos.bakverk@gmail.com</p>
+        </address>
+      </footer>
 
-                    <form method="post" action="thanks.html">
-
-
-                        <p>
-                            <label for="FirstName">Förnamn*:</label>
-                            <input type="text" name="firstname" id="FirstName" required>
-                        </p>
-                        <p>
-                            <label for="LastName">Efternamn*:</label>
-                            <input type="text" name="lastname" id="LastName" required>
-                        </p>
-                        <p>
-                            <label for="Email">E-mail*:</label>
-                            <input type="email" name="email" id="Email" required pattern="\w.+@\w+.+\w">
-                        </p>
-                        <p>
-                            <label for="Phone">Telefon:</label>
-                            <input type="tel" name="phone" id="Phone" pattern="[0-9]{3}-[0-9]{7}">
-                        </p>
-                        <p>
-                            <label for="Date">Datum*:</label>
-                            <input type="date" name="Date" id="Date" required>
-                        </p>
-                        <p>
-                            <label for="Antal">Antal:</label>
-                            <select name="antal" id="Antal">
-                                <option value="en">1</option>
-                                <option value="två">2</option>
-                                <option value="tre">3</option>
-                                <option value="fyra">4</option>
-                                <option value="fen">5</option>
-                                <option value="sex">6</option>
-                                <option value="sju">7</option>
-                                <option value="åtta">8</option>
-                                <option value="nio">9</option>
-                                <option value="tio">10</option>
-                                <option value="elva">11</option>
-                                <option value="tolv">12</option>
-                                <option value="tretton">13</option>
-                                <option value="fjorton">14</option>
-                                <option value="femton">15</option>
-                                <option value="sexton">16</option>
-                                <option value="sjutton">17</option>
-                                <option value="arton">18</option>
-                                <option value="nitton">19</option>
-                                <option value="tjugo">20</option>
-                            </select>
-                        </p>
-                        <p>
-                            <label for="Comments">Annat att tillägga:</label>
-                            <textarea name="Comments" rows="5" cols="20" id="Comments"></textarea>
-                        </p>
-                        <p>
-                            <input type="submit" value="Skicka in din beställning">
-                            <input type="reset" value="Rensa formuläret">
-
-                        </p>
-                    </form>
-                
-            </section>
-        </main>
-
-        <footer>
-            <address>
-                <p class="heading">Phone</p>
-                <p> (888) 555-5555</p>
-            </address>
-            <address>
-                <p class="heading">Email</p>
-                <p>jojos.bakverk@gmail.com</p>
-            </address>
-        </footer>
-
-        <div id="copyright">
-            <ul>
-                <li>&copy; Jojo's tårtor</li>
-                <li>Design: Asimon semantic Web</li>
-            </ul>
-        </div><!--End copyright-->
-
-
-    </div><!--End wrapper-->
-
-</body>
-
+      <div id="copyright">
+        <ul>
+          <li>&copy; Jojo's tårtor</li>
+          <li>Design: Asimon semantic Web</li>
+        </ul>
+      </div>
+      <!--End copyright-->
+    </div>
+    <!--End wrapper-->
+  </body>
 </html>

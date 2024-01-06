@@ -1,189 +1,285 @@
 <!DOCTYPE html>
 <html lang="sv">
-
-<head>
+  <head>
     <title>Galleri - Jojo's bakverk</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-    <link href="../css/reset.css" rel="stylesheet">
-    <link href="../css/main.css" rel="stylesheet">
-    <link href="../css/lightbox.css" rel="stylesheet">
-    <link href="../images/favicon.ico" rel="icon">
-    <meta name="description" content="Ett galleri med olika bilder från Jojos tårt och brödbak.">
-</head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=2"
+    />
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <link href="../css/lightbox.css" rel="stylesheet" />
+    <link href="../images/favicon.ico" rel="icon" />
+    <meta
+      name="description"
+      content="Ett galleri med olika bilder från Jojos tårt och brödbak."
+    />
+  </head>
 
-<body>
+  <body>
     <div id="wrapper">
-        <header>
-            <h1>Galleri - Jojo's bakverk</h1>
-            <h2 class="saying">"Life is a piece of cake"</h2>
-            <img src="../images/inCommon/safari-pinned-tab.svg" alt="Jojos tårtors logotype"
-                title="Klicka för att komma till beställningssidan">
-        </header>
+      <header>
+        <h1>Galleri - Jojo's bakverk</h1>
+        <h2 class="saying">"Life is a piece of cake"</h2>
+        <img
+          src="../images/inCommon/safari-pinned-tab.svg"
+          alt="Jojos tårtors logotype"
+          title="Klicka för att komma till beställningssidan"
+        />
+      </header>
 
-        <nav>
-            <ul>
-                <li><a href="../home.html">Hem</a></li>
-                <li><a href="cakes.html">Tårtor</a></li>
-                <li><a href="bread.html">Bröd</a></li>
-                <li><a href="orders.html">Bokningar</a></li>
-                <li><a href="gallery.html">Galleri</a></li>
-                <li><a href="widget.html">Inspiration</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../home.html">Hem</a></li>
+          <li><a href="cakes.html">Tårtor</a></li>
+          <li><a href="bread.html">Bröd</a></li>
+          <li><a href="orders.html">Bokningar</a></li>
+          <li><a href="gallery.html">Galleri</a></li>
+          <li><a href="widget.html">Inspiration</a></li>
+        </ul>
+      </nav>
 
-        <main>
-            <section>
-                <header>
-                    <h2>Galleri</h2>
-                    <p>Här nedan kan ni se lite bilder från mina baksessioner, klicka på någon av bilderna för att få upp ett bildspel</p>
-                </header>
+      <main>
+        <section>
+          <header>
+            <h2>Galleri</h2>
+            <p>
+              Här nedan kan ni se lite bilder från mina baksessioner, klicka på
+              någon av bilderna för att få upp ett bildspel
+            </p>
+          </header>
 
-              
+          <div id="gallery">
+            <p>
+              <img
+                src="../images/gallery/jordgubbar.webp"
+                alt="Jordgubbar på ett skärbräde"
+                onclick="openModal();currentSlide(1)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/elefantHangandeOron.webp"
+                alt="Tårtdekoration som ser ut som Ior"
+                onclick="openModal();currentSlide(2)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/marsipanMedGrattis.webp"
+                alt="Sockerpasta till tårta med texten grattis"
+                onclick="openModal();currentSlide(3)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/ograddadeRundstycken.webp"
+                alt="Ogräddade rundstycken"
+                onclick="openModal();currentSlide(4)"
+                class="imgText"
+              />
+            </p>
 
-                    <div id="gallery">
-                        <p>
-                            <img src="../images/gallery/jordgubbar.webp" alt="Jordgubbar på ett skärbräde"
-                                onclick="openModal();currentSlide(1)" class="imgText">
-                            <img src="../images/gallery/elefantHangandeOron.webp" alt="Tårtdekoration som ser ut som Ior"
-                                onclick="openModal();currentSlide(2)" class="imgText">
-                            <img src="../images/gallery/marsipanMedGrattis.webp" alt="Sockerpasta till tårta med texten grattis"
-                                onclick="openModal();currentSlide(3)" class="imgText">
-                            <img src="../images/gallery/ograddadeRundstycken.webp" alt="Ogräddade rundstycken"
-                                onclick="openModal();currentSlide(4)" class="imgText">
-                        </p>
+            <p>
+              <img
+                src="../images/gallery/kossa.webp"
+                alt="Tårtdekoration som ser ut som ser ut som en kossa"
+                onclick="openModal();currentSlide(5)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/jordgubbarIngredienserVisp.webp"
+                alt="Jordgubbar, elvisp och vispgrädde"
+                onclick="openModal();currentSlide(6)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/jasandeDeg.webp"
+                alt="Tårtdekoration som ser ut som ser ut som en nalle"
+                onclick="openModal();currentSlide(7)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/rundstycken.webp"
+                alt="Gräddade rundstycken"
+                onclick="openModal();currentSlide(8)"
+                class="imgText"
+              />
+            </p>
 
-                        <p>
-                            <img src="../images/gallery/kossa.webp" alt="Tårtdekoration som ser ut som ser ut som en kossa"
-                                onclick="openModal();currentSlide(5)" class="imgText">
-                            <img src="../images/gallery/jordgubbarIngredienserVisp.webp" alt="Jordgubbar, elvisp och vispgrädde"
-                                onclick="openModal();currentSlide(6)" class="imgText">
-                            <img src="../images/gallery/jasandeDeg.webp" alt="Tårtdekoration som ser ut som ser ut som en nalle"
-                                onclick="openModal();currentSlide(7)" class="imgText">
-                            <img src="../images/gallery/rundstycken.webp" alt="Gräddade rundstycken"
-                                onclick="openModal();currentSlide(8)" class="imgText">
-                        </p>
+            <p>
+              <img
+                src="../images/gallery/aggMjolk.webp"
+                alt="Tårt-ingredienser, glas med ägg och glas med mjölk"
+                onclick="openModal();currentSlide(9)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/hjartBotten.webp"
+                alt="Tårtbotten formad som ett hjärta"
+                onclick="openModal();currentSlide(10)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/uppstapladeIngredienser.webp"
+                alt="Uppstaplade ingredienser inför tårtbak"
+                onclick="openModal();currentSlide(11)"
+                class="imgText"
+              />
+              <img
+                src="../images/gallery/vaniljlussebullar.webp"
+                alt="Smarriga vaniljlussebullar"
+                onclick="openModal();currentSlide(12)"
+                class="imgText"
+              />
+            </p>
+          </div>
 
-                        <p>
-                            <img src="../images/gallery/aggMjolk.webp"
-                                alt="Tårt-ingredienser, glas med ägg och glas med mjölk"
-                                onclick="openModal();currentSlide(9)" class="imgText">
-                            <img src="../images/gallery/hjartBotten.webp" alt="Tårtbotten formad som ett hjärta"
-                                onclick="openModal();currentSlide(10)" class="imgText">
-                            <img src="../images/gallery/uppstapladeIngredienser.webp" alt="Uppstaplade ingredienser inför tårtbak"
-                                onclick="openModal();currentSlide(11)" class="imgText">
-                            <img src="../images/gallery/vaniljlussebullar.webp" alt="Smarriga vaniljlussebullar"
-                                onclick="openModal();currentSlide(12)" class="imgText">
-                        </p>
+          <!-- The Modal/Lightbox -->
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+              <div class="mySlides">
+                <div class="numbertext">1 / 12</div>
+                <img
+                  src="../images/gallery/jordgubbar.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
+              <div class="mySlides">
+                <div class="numbertext">2 / 12</div>
+                <img
+                  src="../images/gallery/elefantHangandeOron.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                    </div>
-                
+              <div class="mySlides">
+                <div class="numbertext">3 / 12</div>
+                <img
+                  src="../images/gallery/marsipanMedGrattis.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                <!-- The Modal/Lightbox -->
-                <div id="myModal" class="modal">
-                    <span class="close cursor" onclick="closeModal()">&times;</span>
-                    <div class="modal-content">
+              <div class="mySlides">
+                <div class="numbertext">4 / 12</div>
+                <img
+                  src="../images/gallery/ograddadeRundstycken.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">1 / 12</div>
-                            <img src="../images/gallery/jordgubbar.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">5 / 12</div>
+                <img
+                  src="../images/gallery/kossa.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">2 / 12</div>
-                            <img src="../images/gallery/elefantHangandeOron.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">6 / 12</div>
+                <img
+                  src="../images/gallery/jordgubbarIngredienserVisp.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">3 / 12</div>
-                            <img src="../images/gallery/marsipanMedGrattis.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">7 / 12</div>
+                <img
+                  src="../images/gallery/jasandeDeg.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">4 / 12</div>
-                            <img src="../images/gallery/ograddadeRundstycken.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">8 / 12</div>
+                <img
+                  src="../images/gallery/rundstycken.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">5 / 12</div>
-                            <img src="../images/gallery/kossa.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">9 / 12</div>
+                <img
+                  src="../images/gallery/aggMjolk.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">6 / 12</div>
-                            <img src="../images/gallery/jordgubbarIngredienserVisp.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">10 / 12</div>
+                <img
+                  src="../images/gallery/hjartBotten.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">7 / 12</div>
-                            <img src="../images/gallery/jasandeDeg.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">11 / 12</div>
+                <img
+                  src="../images/gallery/uppstapladeIngredienser.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">8 / 12</div>
-                            <img src="../images/gallery/rundstycken.webp" alt="" style="width:100%">
-                        </div>
+              <div class="mySlides">
+                <div class="numbertext">12 / 12</div>
+                <img
+                  src="../images/gallery/vaniljlussebullar.webp"
+                  alt=""
+                  style="width: 100%"
+                />
+              </div>
 
-                        <div class="mySlides">
-                            <div class="numbertext">9 / 12</div>
-                            <img src="../images/gallery/aggMjolk.webp" alt="" style="width:100%">
-                        </div>
+              <!-- Next/previous controls -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-                        <div class="mySlides">
-                            <div class="numbertext">10 / 12</div>
-                            <img src="../images/gallery/hjartBotten.webp" alt="" style="width:100%">
-                        </div>
+              <!-- Caption text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            </div>
+            <!-- End modal-content -->
+          </div>
+          <!--End my modal -->
+        </section>
+      </main>
 
-                        <div class="mySlides">
-                            <div class="numbertext">11 / 12</div>
-                            <img src="../images/gallery/uppstapladeIngredienser.webp" alt="" style="width:100%">
-                        </div>
+      <footer>
+        <address>
+          <p class="heading">Phone</p>
+          <p>(888) 555-5555</p>
+        </address>
+        <address>
+          <p class="heading">Email</p>
+          <p>jojos.bakverk@gmail.com</p>
+        </address>
+      </footer>
 
-                        <div class="mySlides">
-                            <div class="numbertext">12 / 12</div>
-                            <img src="../images/gallery/vaniljlussebullar.webp" alt="" style="width:100%">
-                        </div>
-
-                        
-                        <!-- Next/previous controls -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                        <!-- Caption text -->
-                        <div class="caption-container">
-                            <p id="caption"></p>
-                        </div>
-                    </div> <!-- End modal-content -->
-                </div> <!--End my modal -->
-
-            </section>
-
-
-        </main>
-
-
-        <footer>
-            <address>
-                <p class="heading">Phone</p>
-                <p> (888) 555-5555</p>
-            </address>
-            <address>
-                <p class="heading">Email</p>
-                <p>jojos.bakverk@gmail.com</p>
-            </address>
-        </footer>
-
-
-        <div id="copyright">
-            <ul>
-                <li>&copy; Jojo's tårtor</li>
-                <li>Design: Asimon semantic Web</li>
-            </ul>
-        </div><!--End copyright-->
-
-    </div><!--End wrapper-->
+      <div id="copyright">
+        <ul>
+          <li>&copy; Jojo's tårtor</li>
+          <li>Design: Asimon semantic Web</li>
+        </ul>
+      </div>
+      <!--End copyright-->
+    </div>
+    <!--End wrapper-->
     <script src="../javascript/lightbox.js"></script>
-</body>
-
+  </body>
 </html>

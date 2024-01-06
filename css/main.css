@@ -62,7 +62,6 @@ h1 {
   text-shadow: 2px 1px #000;
 }
 
-
 h2 {
   font-size: 2rem;
   line-height: 1.1;
@@ -149,7 +148,6 @@ section ul {
   line-height: 2;
 }
 
-
 .cakesContainer {
   display: inline-flex;
   flex-wrap: wrap;
@@ -168,9 +166,7 @@ section ul {
 
 .cakesItem img {
   border: solid 5px #ba94d1;
-
 }
-
 
 article {
   background-color: #f5f5f5;
@@ -209,7 +205,6 @@ video {
   height: 10%;
   border-radius: 10px;
 }
-
 
 /*footer*/
 footer {
@@ -277,7 +272,6 @@ body#grid > div {
 }
 
 img {
-  
 }
 
 .saying {
@@ -402,7 +396,6 @@ input[type="reset"] {
   text-shadow: 2px 1px #000;
 }
 
-
 @media (min-width: 601px) {
   h1 {
     padding: 1rem 1.75rem;
@@ -456,7 +449,6 @@ input[type="reset"] {
     padding: 6rem 4rem 4rem 4rem;
   }
 
-  
   /* Footer */
   footer {
     justify-content: space-around;
@@ -526,8 +518,6 @@ input[type="reset"] {
     /* line-height: 1.5;  */
     color: whitesmoke;
     text-shadow: 2px 1px #000;
-    
-    
   }
 
   #gridParent img {
@@ -639,8 +629,6 @@ input[type="reset"] {
       grid-row: 4/5;
       grid-column: 3/4;
     }
-
-    
 
     /*Hem (Grid) */
 
