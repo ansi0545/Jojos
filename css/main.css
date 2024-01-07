@@ -16,8 +16,8 @@ html {
 }
 
 body {
-  font: 300 1rem/1.375 Merriweather, Georgia, serif;
-  /* color: #212931; */
+  font: 300 1rem/1.375 Lora, serif;
+ 
 }
 
 section {
@@ -74,7 +74,7 @@ p {
   text-align: center;
   margin: 0 0 2rem 0;
   font-size: 1rem;
-  /* color: #7C7575; */
+  /*  color: #7C7575;*/
 }
 
 /*Bakgrundsfärger och bild*/
@@ -783,17 +783,13 @@ input[type="reset"] {
     #food-widget h3 {
       color: #7f669d;
     }
-
-    #food-widget p {
-      color: #7c7575;
-    }
+   
     #food-widget ul {
       list-style: none;
       padding: 0;
     }
 
     #food-widget ul li {
-      /* color: #8D7B68; */
       padding: 10px;
       border-bottom: 1px solid #eee;
       display: flex;
