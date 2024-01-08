@@ -277,6 +277,12 @@ h3 {
   color: #7f669d;
 }
 
+
+#food-widget ul {
+  list-style: none;
+  padding: 0;
+}
+
 div > header {
   text-align: center;
   padding: 2rem 0;
@@ -764,7 +770,7 @@ input[type="reset"] {
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
       background-color: #f5f5f5;
-      margin-top: 50px; /* To prevent the navbar from covering the widget */
+      margin-top: 50px;
     }
 
     #food-widget h2 {
@@ -788,6 +794,7 @@ input[type="reset"] {
       flex-wrap: wrap;
       flex-direction: column;
       justify-content: center;
+      
     }
 
     #food-widget ul li:last-child {
