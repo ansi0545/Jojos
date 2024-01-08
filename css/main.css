@@ -308,9 +308,16 @@ main section {
 }
 
 #gridParent img {
-    width: 184;
+    width: 40%;
     border: solid 10px #fff;
     border-radius: 200px;
+  }
+
+  #gridParentHome img {
+    width: 55%;
+    border: solid 5px #ba94d1;
+    height: 100%;
+    margin: 1rem 0;
   }
 
 footer {
@@ -514,7 +521,7 @@ input[type="reset"] {
   }
 
   #gridParent img {
-    width: 184;
+    width: 45%;
     border: solid 10px #fff;
     border-radius: 200px;
   }
@@ -523,6 +530,14 @@ input[type="reset"] {
     text-align: center;
     margin: 0;
   }
+
+  #gridParentHome img {
+    width: 65%;
+    border: solid 5px #ba94d1;
+    height: 100%;
+    margin: 1rem 0;
+  }
+
 
   /*Galleriet*/
   p img {
@@ -628,7 +643,7 @@ input[type="reset"] {
     #gridParentHome {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto; /* Changed to auto to fit content */
+      grid-template-rows: auto;
       column-gap: 0.5rem;
       row-gap: 3rem;
     }
