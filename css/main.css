@@ -384,6 +384,26 @@ input[type="reset"] {
     color: #7f669d;
   }
 
+  
+ 
+  #food-widget ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #food-widget ul li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #food-widget ul li:last-child {
+    border-bottom: none;
+  }
+
   h3 {
     font-size: 1.7rem;
   }
